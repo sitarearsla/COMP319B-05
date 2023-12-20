@@ -18,6 +18,17 @@
         }
       }
     },
+    "Player %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyuncu %lld"
+          }
+        }
+      }
+    },
     "Welcome" : {
       "extractionState" : "manual",
       "localizations" : {

@@ -18,10 +18,18 @@ struct ButtonDS: View {
     }
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: buttonAction) {
+            Text(buttonTitle)
+                .padding(.vertical, Spacing.spacing_1)
+                .padding(.horizontal, Spacing.spacing_2)
+        }
+        .background(.buttonBorder)
+        .tint(.white)
+        .cornerRadius(Radius.radius_2)
     }
 }
 
 #Preview {
-    ButtonDS()
+    ButtonDS(buttonTitle: "Test") {
+    }
 }

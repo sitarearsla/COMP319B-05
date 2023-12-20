@@ -19,6 +19,9 @@
 		36E65B5E2B3353FA0079C47A /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B5D2B3353FA0079C47A /* Radius.swift */; };
 		36E65B602B3354860079C47A /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B5F2B3354860079C47A /* Spacing.swift */; };
 		36E65B632B335D8A0079C47A /* ButtonDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B622B335D8A0079C47A /* ButtonDS.swift */; };
+		36E65B652B33674B0079C47A /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B642B33674B0079C47A /* TextStyle.swift */; };
+		36E65B672B33678D0079C47A /* TextDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B662B33678D0079C47A /* TextDS.swift */; };
+		36E65B692B3369450079C47A /* TextStyleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B682B3369450079C47A /* TextStyleType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		36E65B5D2B3353FA0079C47A /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
 		36E65B5F2B3354860079C47A /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
 		36E65B622B335D8A0079C47A /* ButtonDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDS.swift; sourceTree = "<group>"; };
+		36E65B642B33674B0079C47A /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		36E65B662B33678D0079C47A /* TextDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDS.swift; sourceTree = "<group>"; };
+		36E65B682B3369450079C47A /* TextStyleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,19 +140,14 @@
 		36E65B5C2B33532C0079C47A /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				36E65B612B335D6F0079C47A /* Text */,
 				36E65B5D2B3353FA0079C47A /* Radius.swift */,
 				36E65B5F2B3354860079C47A /* Spacing.swift */,
+				36E65B662B33678D0079C47A /* TextDS.swift */,
 				36E65B622B335D8A0079C47A /* ButtonDS.swift */,
+				36E65B642B33674B0079C47A /* TextStyle.swift */,
+				36E65B682B3369450079C47A /* TextStyleType.swift */,
 			);
 			path = DesignSystem;
-			sourceTree = "<group>";
-		};
-		36E65B612B335D6F0079C47A /* Text */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,11 +221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				36E65B562B3352ED0079C47A /* InfoViewModel.swift in Sources */,
+				36E65B652B33674B0079C47A /* TextStyle.swift in Sources */,
+				36E65B692B3369450079C47A /* TextStyleType.swift in Sources */,
 				36E65B582B3352FD0079C47A /* Top10View.swift in Sources */,
 				36E65B632B335D8A0079C47A /* ButtonDS.swift in Sources */,
 				36E65B602B3354860079C47A /* Spacing.swift in Sources */,
 				36E65B542B3352DF0079C47A /* InfoView.swift in Sources */,
 				36E65B5A2B3353090079C47A /* Top10ViewModel.swift in Sources */,
+				36E65B672B33678D0079C47A /* TextDS.swift in Sources */,
 				36E65B412B3352540079C47A /* HomeView.swift in Sources */,
 				36E65B502B3352A90079C47A /* HomeViewModel.swift in Sources */,
 				36E65B3F2B3352540079C47A /* CardGameNetworkingApp.swift in Sources */,
@@ -355,10 +359,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CardGameNetworking/CardGameNetworking.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CardGameNetworking/Preview Content\"";
-				DEVELOPMENT_TEAM = 7GZVR233YM;
+				DEVELOPMENT_TEAM = R4A8L9UTY2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -379,6 +384,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sitare.arslanturk.CardGameNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -393,10 +399,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CardGameNetworking/CardGameNetworking.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CardGameNetworking/Preview Content\"";
-				DEVELOPMENT_TEAM = 7GZVR233YM;
+				DEVELOPMENT_TEAM = R4A8L9UTY2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -417,6 +424,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sitare.arslanturk.CardGameNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;

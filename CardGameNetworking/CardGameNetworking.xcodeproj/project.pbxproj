@@ -22,6 +22,7 @@
 		36E65B652B33674B0079C47A /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B642B33674B0079C47A /* TextStyle.swift */; };
 		36E65B672B33678D0079C47A /* TextDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B662B33678D0079C47A /* TextDS.swift */; };
 		36E65B692B3369450079C47A /* TextStyleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B682B3369450079C47A /* TextStyleType.swift */; };
+		36E65B6B2B3388DC0079C47A /* LongTextDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B6A2B3388DC0079C47A /* LongTextDS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		36E65B642B33674B0079C47A /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
 		36E65B662B33678D0079C47A /* TextDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDS.swift; sourceTree = "<group>"; };
 		36E65B682B3369450079C47A /* TextStyleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleType.swift; sourceTree = "<group>"; };
+		36E65B6A2B3388DC0079C47A /* LongTextDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTextDS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				36E65B622B335D8A0079C47A /* ButtonDS.swift */,
 				36E65B642B33674B0079C47A /* TextStyle.swift */,
 				36E65B682B3369450079C47A /* TextStyleType.swift */,
+				36E65B6A2B3388DC0079C47A /* LongTextDS.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				36E65B562B3352ED0079C47A /* InfoViewModel.swift in Sources */,
 				36E65B652B33674B0079C47A /* TextStyle.swift in Sources */,
 				36E65B692B3369450079C47A /* TextStyleType.swift in Sources */,
+				36E65B6B2B3388DC0079C47A /* LongTextDS.swift in Sources */,
 				36E65B582B3352FD0079C47A /* Top10View.swift in Sources */,
 				36E65B632B335D8A0079C47A /* ButtonDS.swift in Sources */,
 				36E65B602B3354860079C47A /* Spacing.swift in Sources */,

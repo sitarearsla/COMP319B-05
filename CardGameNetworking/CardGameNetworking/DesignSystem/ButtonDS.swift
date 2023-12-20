@@ -19,12 +19,11 @@ struct ButtonDS: View {
 
     var body: some View {
         Button(action: buttonAction) {
-            Text(buttonTitle)
+            TextDS(textStyle: TextStyleType.button, text: buttonTitle)
                 .padding(.vertical, Spacing.spacing_1)
                 .padding(.horizontal, Spacing.spacing_2)
         }
         .background(.buttonBorder)
-        .tint(.white)
         .cornerRadius(Radius.radius_2)
     }
 }

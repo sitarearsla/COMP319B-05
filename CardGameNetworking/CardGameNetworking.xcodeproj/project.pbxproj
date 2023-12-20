@@ -24,6 +24,7 @@
 		36E65B692B3369450079C47A /* TextStyleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B682B3369450079C47A /* TextStyleType.swift */; };
 		36E65B6B2B3388DC0079C47A /* LongTextDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B6A2B3388DC0079C47A /* LongTextDS.swift */; };
 		36E65B6D2B338AEB0079C47A /* PlayerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B6C2B338AEB0079C47A /* PlayerCardView.swift */; };
+		36E65B712B339B570079C47A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 36E65B702B339B570079C47A /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		36E65B682B3369450079C47A /* TextStyleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleType.swift; sourceTree = "<group>"; };
 		36E65B6A2B3388DC0079C47A /* LongTextDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTextDS.swift; sourceTree = "<group>"; };
 		36E65B6C2B338AEB0079C47A /* PlayerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCardView.swift; sourceTree = "<group>"; };
+		36E65B702B339B570079C47A /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		36E65B322B3352540079C47A = {
 			isa = PBXGroup;
 			children = (
+				36E65B702B339B570079C47A /* Localizable.xcstrings */,
 				36E65B3D2B3352540079C47A /* CardGameNetworking */,
 				36E65B3C2B3352540079C47A /* Products */,
 			);
@@ -198,6 +201,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 36E65B322B3352540079C47A;
 			productRefGroup = 36E65B3C2B3352540079C47A /* Products */;
@@ -216,6 +220,7 @@
 			files = (
 				36E65B472B3352560079C47A /* Preview Assets.xcassets in Resources */,
 				36E65B432B3352560079C47A /* Assets.xcassets in Resources */,
+				36E65B712B339B570079C47A /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +309,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -358,6 +364,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};

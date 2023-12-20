@@ -25,6 +25,9 @@
 		36E65B6B2B3388DC0079C47A /* LongTextDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B6A2B3388DC0079C47A /* LongTextDS.swift */; };
 		36E65B6D2B338AEB0079C47A /* PlayerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B6C2B338AEB0079C47A /* PlayerCardView.swift */; };
 		36E65B712B339B570079C47A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 36E65B702B339B570079C47A /* Localizable.xcstrings */; };
+		36E65B732B33A9DE0079C47A /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B722B33A9DE0079C47A /* GameHelper.swift */; };
+		36E65B752B33AA350079C47A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B742B33AA350079C47A /* Card.swift */; };
+		36E65B772B33AD300079C47A /* GameHelperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B762B33AD300079C47A /* GameHelperDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		36E65B6A2B3388DC0079C47A /* LongTextDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTextDS.swift; sourceTree = "<group>"; };
 		36E65B6C2B338AEB0079C47A /* PlayerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCardView.swift; sourceTree = "<group>"; };
 		36E65B702B339B570079C47A /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		36E65B722B33A9DE0079C47A /* GameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		36E65B742B33AA350079C47A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		36E65B762B33AD300079C47A /* GameHelperDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHelperDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,9 @@
 		36E65B5B2B3353150079C47A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				36E65B722B33A9DE0079C47A /* GameHelper.swift */,
+				36E65B742B33AA350079C47A /* Card.swift */,
+				36E65B762B33AD300079C47A /* GameHelperDelegate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -233,9 +242,12 @@
 			files = (
 				36E65B562B3352ED0079C47A /* InfoViewModel.swift in Sources */,
 				36E65B652B33674B0079C47A /* TextStyle.swift in Sources */,
+				36E65B772B33AD300079C47A /* GameHelperDelegate.swift in Sources */,
 				36E65B692B3369450079C47A /* TextStyleType.swift in Sources */,
 				36E65B6D2B338AEB0079C47A /* PlayerCardView.swift in Sources */,
 				36E65B6B2B3388DC0079C47A /* LongTextDS.swift in Sources */,
+				36E65B732B33A9DE0079C47A /* GameHelper.swift in Sources */,
+				36E65B752B33AA350079C47A /* Card.swift in Sources */,
 				36E65B582B3352FD0079C47A /* Top10View.swift in Sources */,
 				36E65B632B335D8A0079C47A /* ButtonDS.swift in Sources */,
 				36E65B602B3354860079C47A /* Spacing.swift in Sources */,

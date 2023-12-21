@@ -7,7 +7,7 @@
 
 import Foundation
 
-// swiftlint: disable identifier_name
+// swiftlint:disable identifier_name
 enum Radius {
     /// radius 4.0
     static let radius_1: CGFloat = 4.0
@@ -21,4 +21,5 @@ enum Radius {
     /// radius 24.0
     static let radius_4: CGFloat = 24.0
 }
-// swifting: enable identifier_name
+
+// swiftlint:enable identifier_name

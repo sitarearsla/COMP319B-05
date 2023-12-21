@@ -12,5 +12,5 @@ struct TextStyle {
 
     let textColor: Color
     let textFont: Font
-    
+
 }

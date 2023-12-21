@@ -8,7 +8,7 @@
 import Foundation
 
 class GameHelper {
-    
+
     private var deck: [Card] = []
     weak var delegate: GameHelperDelegate?
 

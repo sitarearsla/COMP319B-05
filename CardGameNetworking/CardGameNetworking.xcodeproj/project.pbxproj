@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3658710D2B54BBB000342955 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3658710C2B54BBB000342955 /* Player.swift */; };
+		365871102B54BC0C00342955 /* PlayerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3658710F2B54BC0C00342955 /* PlayerDataSource.swift */; };
 		36E65B3F2B3352540079C47A /* CardGameNetworkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B3E2B3352540079C47A /* CardGameNetworkingApp.swift */; };
 		36E65B412B3352540079C47A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E65B402B3352540079C47A /* HomeView.swift */; };
 		36E65B432B3352560079C47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E65B422B3352560079C47A /* Assets.xcassets */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3658710C2B54BBB000342955 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3658710F2B54BC0C00342955 /* PlayerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDataSource.swift; sourceTree = "<group>"; };
 		36E65B3B2B3352540079C47A /* CardGameNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGameNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E65B3E2B3352540079C47A /* CardGameNetworkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameNetworkingApp.swift; sourceTree = "<group>"; };
 		36E65B402B3352540079C47A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3658710B2B54B71200342955 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				36E65B722B33A9DE0079C47A /* GameHelper.swift */,
+				36E65B762B33AD300079C47A /* GameHelperDelegate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3658710E2B54BBFB00342955 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				3658710F2B54BC0C00342955 /* PlayerDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		36E65B322B3352540079C47A = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +108,9 @@
 		36E65B3D2B3352540079C47A /* CardGameNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				3658710E2B54BBFB00342955 /* DataSource */,
 				36E65B5C2B33532C0079C47A /* DesignSystem */,
+				3658710B2B54B71200342955 /* Helpers */,
 				36E65B5B2B3353150079C47A /* Models */,
 				36E65B3E2B3352540079C47A /* CardGameNetworkingApp.swift */,
 				36E65B4E2B33529A0079C47A /* Views */,
@@ -147,9 +170,8 @@
 		36E65B5B2B3353150079C47A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				36E65B722B33A9DE0079C47A /* GameHelper.swift */,
 				36E65B742B33AA350079C47A /* Card.swift */,
-				36E65B762B33AD300079C47A /* GameHelperDelegate.swift */,
+				3658710C2B54BBB000342955 /* Player.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -261,9 +283,11 @@
 				36E65B602B3354860079C47A /* Spacing.swift in Sources */,
 				36E65B542B3352DF0079C47A /* InfoView.swift in Sources */,
 				36E65B5A2B3353090079C47A /* Top10ViewModel.swift in Sources */,
+				365871102B54BC0C00342955 /* PlayerDataSource.swift in Sources */,
 				36E65B672B33678D0079C47A /* TextDS.swift in Sources */,
 				36E65B412B3352540079C47A /* HomeView.swift in Sources */,
 				36E65B502B3352A90079C47A /* HomeViewModel.swift in Sources */,
+				3658710D2B54BBB000342955 /* Player.swift in Sources */,
 				36E65B3F2B3352540079C47A /* CardGameNetworkingApp.swift in Sources */,
 				36E65B5E2B3353FA0079C47A /* Radius.swift in Sources */,
 			);

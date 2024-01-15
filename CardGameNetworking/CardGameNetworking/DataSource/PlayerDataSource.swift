@@ -28,7 +28,9 @@ struct PlayerDataSource {
             do {
                 let playerList = try decoder.decode([Player].self, from: data)
 //                print(playerList)
-                delegate?.playerListLoaded(playerList: playerList)
+                DispatchQueue.main.async {
+                    delegate?.playerListLoaded(playerList: playerList)
+                }
             } catch {
                 print(error)
             }

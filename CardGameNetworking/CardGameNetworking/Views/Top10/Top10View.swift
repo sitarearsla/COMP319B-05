@@ -12,9 +12,14 @@ struct Top10View: View {
     @StateObject private var viewModel = Top10ViewModel()
 
     var body: some View {
-        TextDS(textStyle: TextStyleType.danger, text: "Top 10")
-            .navigationTitle("Top 10")
-            .navigationBarTitleDisplayMode(.inline)
+        if viewModel.isLoading {
+            Loading()
+                .onAppear(perform: {
+                    viewModel.loadPlayerList()
+                })
+        } else {
+
+        }
     }
 }
 

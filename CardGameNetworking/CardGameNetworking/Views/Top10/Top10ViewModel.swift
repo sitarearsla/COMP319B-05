@@ -9,9 +9,12 @@ import Foundation
 
 class Top10ViewModel: ObservableObject {
 
+    @Published var isLoading = true
     private let dataSource = PlayerDataSource()
 
     func loadPlayerList() {
         dataSource.loadPlayerList()
     }
+
+    
 }

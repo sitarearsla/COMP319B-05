@@ -20,7 +20,7 @@ struct Top10View: View {
         } else {
             List(viewModel.playerList, id: \.self) {
                 player in
-                
+                Top10Row(player: player)
             }
         }
     }

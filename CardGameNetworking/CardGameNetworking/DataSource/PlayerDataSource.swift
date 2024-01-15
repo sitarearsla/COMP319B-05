@@ -10,6 +10,7 @@ import Foundation
 struct PlayerDataSource {
 
     private let baseURL = "https://digimon-api.vercel.app/api/"
+    var delegate: PlayerDataSourceDelegate?
 
     func loadPlayerList() {
 
@@ -26,7 +27,8 @@ struct PlayerDataSource {
             let decoder = JSONDecoder()
             do {
                 let playerList = try decoder.decode([Player].self, from: data)
-                print(playerList)
+//                print(playerList)
+                delegate?.playerListLoaded(playerList: playerList)
             } catch {
                 print(error)
             }

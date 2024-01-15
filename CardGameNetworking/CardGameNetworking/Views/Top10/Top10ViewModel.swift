@@ -10,11 +10,23 @@ import Foundation
 class Top10ViewModel: ObservableObject {
 
     @Published var isLoading = true
-    private let dataSource = PlayerDataSource()
+    @Published var playerList: [Player] = []
+    private var dataSource = PlayerDataSource()
+
+    init() {
+        dataSource.delegate = self
+    }
 
     func loadPlayerList() {
         dataSource.loadPlayerList()
     }
+}
 
+extension Top10ViewModel: PlayerDataSourceDelegate {
+    func playerListLoaded(playerList: [Player]) {
+        isLoading = false
+        self.playerList = playerList
+    }
     
+
 }

@@ -21,7 +21,15 @@ struct PlayerDataSource {
         request.httpMethod = "GET"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         let dataTask = session.dataTask(with: request) { data, response, error in
-            print("HERE")
+            guard let data else { return }
+//            print(String(decoding: data, as: UTF8.self))
+            let decoder = JSONDecoder()
+            do {
+                let playerList = try decoder.decode([Player].self, from: data)
+                print(playerList)
+            } catch {
+                print(error)
+            }
         }
         dataTask.resume()
     }

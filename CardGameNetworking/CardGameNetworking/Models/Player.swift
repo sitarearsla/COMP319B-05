@@ -8,7 +8,7 @@
 import Foundation
 
 // {"name":"Agumon","img":"https://digimon.shadowsmith.com/img/agumon.jpg","level":"Rookie"}
-struct Player {
+struct Player: Codable{
 
     let name: String
     let img: String

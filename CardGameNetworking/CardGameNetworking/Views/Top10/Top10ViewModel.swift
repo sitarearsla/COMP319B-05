@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class Top10ViewModel: ObservableObject {
+
+    private let dataSource = PlayerDataSource()
+
+    func loadPlayerList() {
+        dataSource.loadPlayerList()
+    }
+}

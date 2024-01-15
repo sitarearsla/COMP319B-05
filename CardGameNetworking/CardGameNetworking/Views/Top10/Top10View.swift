@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct Top10View: View {
+
+    @StateObject private var viewModel = Top10ViewModel()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextDS(textStyle: TextStyleType.danger, text: "Top 10")
+            .navigationTitle("Top 10")
+            .navigationBarTitleDisplayMode(.inline)
     }
 }
 

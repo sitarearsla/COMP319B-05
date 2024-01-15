@@ -29,6 +29,9 @@
         }
       }
     },
+    "Top 10" : {
+
+    },
     "Welcome" : {
       "extractionState" : "manual",
       "localizations" : {

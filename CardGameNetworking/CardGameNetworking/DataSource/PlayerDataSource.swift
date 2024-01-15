@@ -21,6 +21,7 @@ struct PlayerDataSource {
         request.httpMethod = "GET"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         let dataTask = session.dataTask(with: request) { data, response, error in
+            print("HERE")
         }
         dataTask.resume()
     }

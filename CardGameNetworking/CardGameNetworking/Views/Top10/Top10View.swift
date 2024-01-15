@@ -18,7 +18,10 @@ struct Top10View: View {
                     viewModel.loadPlayerList()
                 })
         } else {
-
+            List(viewModel.playerList, id: \.self) {
+                player in
+                
+            }
         }
     }
 }
